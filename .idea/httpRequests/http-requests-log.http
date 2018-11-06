@@ -1,0 +1,42 @@
+GET http://localhost:3000/purge?pass=ttt&file=/frontend/mobileweb/production/search.bundle.543bcf1fde31c7c9c89037c8c3654160.js
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-11-06T012148.200.html
+
+###
+
+GET http://localhost:3000/purge?pass=ttt&file=/frontend/mobileweb/production/footer.bundle.eeebaf24d764b75053a008b62c9ccdaf.js
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-11-06T012014.200.html
+
+###
+
+GET http://localhost:3000/purge?pass=ttt&file=/frontend/mobileweb/production/footer.bundle.eeebaf24d764b75053a008b62c9ccdaf.js
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-11-06T011658.200.html
+
+###
+
+GET http://localhost:3000/purge?pass=ttt&file=/frontend/mobileweb/production/footer.bundle.eeebaf24d764b75053a008b62c9ccdaf.js
+Accept: */*
+Cache-Control: no-cache
+
+###
+
+GET http://localhost:3000/purge?pass=ttt&file=/frontend/mobileweb/production/footer.bundle.eeebaf24d764b75053a008b62c9ccdaf.js
+Accept: */*
+Cache-Control: no-cache
+
+###
+
+GET http://localhost:3000/purge?pass=ttt&file=/frontend/mobileweb/production/footer.bundle.eeebaf24d764b75053a008b62c9ccdaf.js
+Accept: */*
+Cache-Control: no-cache
+
+###
+
