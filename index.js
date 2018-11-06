@@ -4,7 +4,7 @@ const fs = require('fs');
 
 const app = express();
 const port = 3000;
-const pass = 'ttt';
+const pass = process.env.PURGE_PASS;
 const host = '127.0.0.1:10181';
 
 const authorizationMiddleware = (req, res, next) => {
