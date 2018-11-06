@@ -18,13 +18,14 @@ const authorizationMiddleware = (req, res, next) => {
 
 app.get('/purge', authorizationMiddleware, (req, res) => {
   const hash = md5(`${host}${req.query.file}`);
+
   const filePath = `/mobile_cache/${hash.slice(hash.length - 1)}/${hash.slice(hash.length - 3, hash.length - 1)}/${hash}`;
 
   fs.unlink(filePath, (error) => {
     if (!error) {
       res.status(200).end(`Deleted file: ${req.query.file}`);
     } else {
-      res.status(500).end(error);
+      res.status(500).end(error ? error.message : `Failed to delete file.`);
     }
   })
 });
